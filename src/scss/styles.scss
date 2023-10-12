@@ -1,0 +1,71 @@
+$color-font: #174642 ;
+$color-bg-default: #f5f0ea;
+$color-bg-boxes: #FD3;
+$color-product-box:#29433d;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$bg-button: #d19e71;
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    color:$bg-button;
+}
+
+body {
+    background-color: $color-bg-default;
+    font-family: $font-default;
+}
+
+h1 {
+    color: $color-font;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+h2 {
+    margin-top: 4rem;
+}
+
+header,
+section  {
+    display: block;
+    float: left;
+    width: 100%; 
+    padding-bottom:3rem;
+    text-align: center;
+}
+
+
+footer {
+
+.container { 
+    flex-flow: row;
+    justify-content: space-between; 
+    }
+
+    small {
+        font-weight:600;
+    }
+}
+
+
+
+.container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 90vw;
+}
+
+#sobre {
+    background-color: #f5ccc3;
+    text-align: center;
+    padding:3rem 0;
+}
+
+ 
+
+@import 'vitrine'
